@@ -33,9 +33,10 @@ async def start(message: types.Message):
 
 async def start_parsing(message: types.Message):
     await db.update_status_user(message.from_user.id, 'active')
+    print('DASASDSDA')
 
     scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
-    scheduler.add_job(func=start_pars, args=(message.from_user.id,), trigger='interval', minutes=5)
+    scheduler.add_job(func=start_pars, args=(message.from_user.id,), trigger='interval', minutes=1)
     scheduler.start()
 
 

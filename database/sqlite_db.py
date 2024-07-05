@@ -30,3 +30,10 @@ class Database:
     async def add_kwork(self, name):
         with self.connection:
             self.cursor.execute('INSERT OR IGNORE INTO `list_kworks`(`name`) VALUES (?)', (name, ))
+
+# list_kworks
+# - name
+ 
+#  status_active
+# - status
+# - tgid

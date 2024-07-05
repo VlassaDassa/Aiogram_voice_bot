@@ -8,7 +8,6 @@ from handlers import client
 async def on_startup(_):
     print('Бот вышел в онлайн\n')
 
-
     
 
 client.register_handlers_client(dp)
@@ -21,3 +20,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+# В инструкции рассказать про .env
+# 
