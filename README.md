@@ -18,7 +18,7 @@ venv\Scripts\activate
 pip install -r .\requirements.txt
 python manage.py app.py
 ```
-https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/
+Нужно установить ffmpeg, используя эту [инструкцию](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
 Также, необходимо создать файл .env и добавить туда переменную TOKEN=<token>, сам токен можно получить у @BotFather
 
 ## ВАЖНО!
