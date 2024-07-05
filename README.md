@@ -18,4 +18,4 @@ venv\Scripts\activate
 pip install -r .\requirements.txt
 python manage.py app.py
 ```
-
+Также, необходимо создать файл .env и добавить туда переменную TOKEN=<token>, сам токен можно получить у @BotFather
